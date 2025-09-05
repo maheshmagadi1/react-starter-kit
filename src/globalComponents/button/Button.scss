@@ -1,0 +1,6 @@
+@use './../../styles/styles.scss' as *;
+
+.btn-primary {
+    color: #FFFFFF;
+    background-color: $primary-color;
+}

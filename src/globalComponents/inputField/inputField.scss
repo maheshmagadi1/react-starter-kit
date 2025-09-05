@@ -1,0 +1,17 @@
+@use './../../styles/styles.scss' as *;
+
+input {
+    color: $primary-color;
+    background-color: #FFFFFF;
+    padding: 10px;
+    margin: 10px;
+}
+input[type=submit] {
+    color: #FFFFFF;
+    background-color: $primary-color;
+    padding: 12px;
+    margin: 10px;
+}
+.input-field-error{
+    color: $error-color;
+}
